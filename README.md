@@ -8,7 +8,7 @@ In Settings → Pages, select **Deploy from a branch**, **main**, and **/(root)*
 
 ## Reader
 
-Introduction → cell preparation (Figure 1) → graft anatomy (Figure 2) → muscle function (Figure 3) → conclusions. Tap underlined terms and mapped figure labels for definitions. The desktop definition panel is on the right; on mobile it appears below the text. Each browser advances independently with the arrows; refreshing starts at the introduction. No accounts, analytics, database, or collected student answers.
+Introduction → Results: Section 1 (Figure 1) → Results: Section 2 (Figure 2) → Results: Section 3 (Figure 3) → Conclusion and Discussion. Tap underlined terms and mapped figure labels for definitions. The desktop definition panel is on the right; on mobile it appears below the text. Each browser advances independently with the arrows; refreshing starts at the introduction. No accounts, analytics, database, or collected student answers.
 
 ## Edit
 
@@ -17,7 +17,7 @@ Introduction → cell preparation (Figure 1) → graft anatomy (Figure 2) → mu
 - `style.css`: responsive layout.
 - `assets/figure-*.webp`: figure images.
 
-Glossary entries have stable `id`, `term`, `definition`, `aliases`, and `source` fields. Add aliases to existing concepts before adding definitions. Figure hotspots reference those IDs; their `x`, `y`, `w`, and `h` are percentages of the figure image. Reading stages contain original article paragraphs, a companion discussion prompt, and an optional figure. The stated question and abstract are deferred disclosures. State lives only in browser memory and is not synchronized or persisted.
+Glossary entries have stable `id`, `term`, `definition`, `aliases`, and `source` fields. Add aliases to existing concepts before adding definitions. Figure hotspots reference those IDs; their `x`, `y`, `w`, and `h` are percentages of the figure image. Reading stages contain original article paragraphs, a companion discussion prompt, and an optional figure. Introduction discussion questions are in a collapsed disclosure. The authors’ stated question and the abstract are omitted from the reader. Results: Section 1 asks only what the data were intended to show; Section 2 currently has no discussion question. State lives only in browser memory and is not synchronized or persisted.
 
 ## Sources and rights
 
