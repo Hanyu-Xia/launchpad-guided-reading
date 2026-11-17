@@ -773,7 +773,7 @@ window.READING_DATA = {
         "Electrical stimulation of motor axons within peripheral nerves has been known to induce muscle contraction since Luigi Galvani’s early experiments. In more recent times, phrenic nerve pacing has been used clinically to control the function of the diaphragm, the major muscle involved in respiration, in some patients with high-level spinal cord injury (1) or amyotrophic lateral sclerosis (ALS) (2). However, peripheral nerves are composed of efferent motor axons as well as afferent sensory axons (which are unaffected in ALS). Functional electrical stimulation, which stimulates nerves indiscriminately, can thus cause considerable discomfort (3). Furthermore, functional electrical stimulation is ineffective if axon integrity is compromised because of injury or degenerative disease. Other strategies to replace lost motor neurons within the central nervous system include the use of embryonic stem cells (ESCs), but ESC-derived neurons do not always integrate into adult brain and spinal cord circuitry (4) and have difficulty overcoming molecular inhibitors of neuronal outgrowth (5) and extending axons across the barrier between the central and peripheral nervous system to reach the appropriate muscles (6). ",
         "It has previously been shown that motor neurons derived from ESCs can be engrafted into a peripheral nerve environment and successfully reinnervate denervated muscle (7). However, these engrafted cells are not connected to the descending inputs within the central nervous system that normally control motor function; therefore, their neural activity must be regulated by an artificial control system. Such engrafted ESC-derived motor neurons can be electrically stimulated (7), but this approach stimulates endogenous as well as engrafted neurons. In transgenic mice that express the light-sensitive ion channel channelrhodopsin-2 (ChR2) (8, 9) in endogenous motor neurons, it has been shown that the axons of these ChR2 motor neurons can be recruited by optical stimulation in a physiological and graded fashion, resulting in optogenetic control of muscle function (10). It has also been shown that viral expression of ChR2 in motor neurons of adult rats can enable optical stimulation of muscle function (11). "
       ],
-      "prompt": "What is the main question the authors are asking? What would they need to demonstrate to answer it?"
+      "prompt": "What is the main question the authors are trying to answer?\nWhat do they need to demonstrate?"
     },
     {
       "id": "cells",
@@ -996,7 +996,7 @@ window.READING_DATA = {
         "width": 344,
         "height": 495
       },
-      "prompt": ""
+      "prompt": "success? Guess we're done here."
     },
     {
       "id": "function",
