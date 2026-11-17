@@ -996,7 +996,7 @@ window.READING_DATA = {
         "width": 344,
         "height": 495
       },
-      "prompt": "success? Guess we're done here."
+      "prompt": "Success? Guess we're done here."
     },
     {
       "id": "function",
@@ -1014,7 +1014,7 @@ window.READING_DATA = {
         "width": 523.817066192627,
         "height": 329.927490234375
       },
-      "prompt": "What was actually measured? How do the optical and electrical comparisons differ, and how far do the results support the main claim?"
+      "prompt": "Would you bet your house?\nWhat next?"
     },
     {
       "id": "conclusion",
@@ -1023,7 +1023,7 @@ window.READING_DATA = {
         "In this study, we show that ChR2 motor neurons can be successfully transplanted into a peripheral nerve, where they can survive and extend axons that not only replace lost endogenous motor axons but also reinnervate denervated muscle fibers. Moreover, these transplanted ChR2 motor neurons can be selectively activated by 470-nm light, in a controlled manner to produce graded muscle contractions. Major challenges still remain before this approach can be established as an ef- fective clinical intervention: These obstacles include the development of an implantable optical stimulator, such as that shown by Towne et al. (11), and a means to encapsulate the grafted cells. Additionally, incorporation of sensitive, red-shifted channelrhodopsin variants, such as ReaChR (19), rather than ChR2 would abrogate potential cellular toxicity associated with short-wavelength light (20).",
         "These results show that through the use of a synthesis of regenerative medicine and optogenetics, it is possible to restore specific motor nerve functions. Although this study is largely a proof-of-principle study, it is possible that with further development this strategy may be of use in conditions where muscle function is lost—for example, after traumatic injury or neurodegenerative disease."
       ],
-      "prompt": "State the strongest conclusion justified by the evidence. What remains uncertain, and what experiment would strengthen the next claim?"
+      "prompt": "Did they answer their question?\nDo we care now?"
     }
   ]
 };
