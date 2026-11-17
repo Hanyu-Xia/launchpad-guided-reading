@@ -773,7 +773,8 @@ window.READING_DATA = {
         "Electrical stimulation of motor axons within peripheral nerves has been known to induce muscle contraction since Luigi Galvani’s early experiments. In more recent times, phrenic nerve pacing has been used clinically to control the function of the diaphragm, the major muscle involved in respiration, in some patients with high-level spinal cord injury (1) or amyotrophic lateral sclerosis (ALS) (2). However, peripheral nerves are composed of efferent motor axons as well as afferent sensory axons (which are unaffected in ALS). Functional electrical stimulation, which stimulates nerves indiscriminately, can thus cause considerable discomfort (3). Furthermore, functional electrical stimulation is ineffective if axon integrity is compromised because of injury or degenerative disease. Other strategies to replace lost motor neurons within the central nervous system include the use of embryonic stem cells (ESCs), but ESC-derived neurons do not always integrate into adult brain and spinal cord circuitry (4) and have difficulty overcoming molecular inhibitors of neuronal outgrowth (5) and extending axons across the barrier between the central and peripheral nervous system to reach the appropriate muscles (6). ",
         "It has previously been shown that motor neurons derived from ESCs can be engrafted into a peripheral nerve environment and successfully reinnervate denervated muscle (7). However, these engrafted cells are not connected to the descending inputs within the central nervous system that normally control motor function; therefore, their neural activity must be regulated by an artificial control system. Such engrafted ESC-derived motor neurons can be electrically stimulated (7), but this approach stimulates endogenous as well as engrafted neurons. In transgenic mice that express the light-sensitive ion channel channelrhodopsin-2 (ChR2) (8, 9) in endogenous motor neurons, it has been shown that the axons of these ChR2 motor neurons can be recruited by optical stimulation in a physiological and graded fashion, resulting in optogenetic control of muscle function (10). It has also been shown that viral expression of ChR2 in motor neurons of adult rats can enable optical stimulation of muscle function (11). "
       ],
-      "prompt": "What's the question?\nWhy should we care?"
+      "prompt": "What's the question?\nWhy should we care?",
+      "code": "1234"
     },
     {
       "id": "cells",
@@ -874,7 +875,8 @@ window.READING_DATA = {
         "width": 344,
         "height": 285
       },
-      "prompt": "What was the purpose of showing this data?"
+      "prompt": "What was the purpose of showing this data?",
+      "code": "4321"
     },
     {
       "id": "graft",
@@ -996,7 +998,8 @@ window.READING_DATA = {
         "width": 344,
         "height": 495
       },
-      "prompt": "Success? Guess we're done here."
+      "prompt": "Success? Guess we're done here.",
+      "code": "ABCD"
     },
     {
       "id": "function",
@@ -1014,7 +1017,8 @@ window.READING_DATA = {
         "width": 523.817066192627,
         "height": 329.927490234375
       },
-      "prompt": "Would you bet your house?\nWhat next?"
+      "prompt": "Would you bet your house?\nWhat next?",
+      "code": "...."
     },
     {
       "id": "conclusion",
@@ -1023,7 +1027,220 @@ window.READING_DATA = {
         "In this study, we show that ChR2 motor neurons can be successfully transplanted into a peripheral nerve, where they can survive and extend axons that not only replace lost endogenous motor axons but also reinnervate denervated muscle fibers. Moreover, these transplanted ChR2 motor neurons can be selectively activated by 470-nm light, in a controlled manner to produce graded muscle contractions. Major challenges still remain before this approach can be established as an ef- fective clinical intervention: These obstacles include the development of an implantable optical stimulator, such as that shown by Towne et al. (11), and a means to encapsulate the grafted cells. Additionally, incorporation of sensitive, red-shifted channelrhodopsin variants, such as ReaChR (19), rather than ChR2 would abrogate potential cellular toxicity associated with short-wavelength light (20).",
         "These results show that through the use of a synthesis of regenerative medicine and optogenetics, it is possible to restore specific motor nerve functions. Although this study is largely a proof-of-principle study, it is possible that with further development this strategy may be of use in conditions where muscle function is lost—for example, after traumatic injury or neurodegenerative disease."
       ],
-      "prompt": "Did they answer their question?\nDo we care now?"
+      "prompt": "Did they answer their question?\nDo we care now?",
+      "code": "LPAD"
+    }
+  ],
+  "analysis": [
+    {
+      "id": "F01",
+      "category": "FRAME",
+      "quote": "In this study, we tested whether expression of ChR2 in ESC-derived motor neurons engrafted into a denervated peripheral nerve",
+      "note": "Main question. Test optical control after peripheral grafting. Keep the two aims separate: selective activation and physiological recruitment. This is an experimental proof of principle in mice."
+    },
+    {
+      "id": "C01",
+      "category": "INFERENCE",
+      "quote": "These engrafted motor neurons not only reinnervated lower hind-limb muscles but also enabled their function to be restored in a controllable manner using optogenetic stimulation.",
+      "note": "Headline claim. Decompose into survival, axon growth, anatomical contact, functional transmission, and graded output. Figures 1-3 supply different links. Define restored function using the measured force endpoint."
+    },
+    {
+      "id": "S01",
+      "category": "SCOPE",
+      "quote": "may be a successful strategy to restore muscle function after traumatic injury or disease.",
+      "note": "Translational possibility, appropriately qualified by may. No human benefit, chronic disease efficacy, or voluntary movement is demonstrated in the supplied article."
+    },
+    {
+      "id": "F02",
+      "category": "FRAME",
+      "quote": "these engrafted cells are not connected to the descending inputs within the central nervous system that normally control motor function",
+      "note": "Rationale and boundary. The graft is a peripheral bypass requiring an external command. This premise limits how the later restoration claim should be understood."
+    },
+    {
+      "id": "M01",
+      "category": "METHOD",
+      "quote": "Survival analysis of sorted",
+      "note": "Figure 1C. Compare survival across cell preparations and Gdnf conditions. Ask what the denominator and replicate unit are before interpreting error bars."
+    },
+    {
+      "id": "L01",
+      "category": "LIMIT",
+      "quote": "two replicates, analysis of variance with Bonferroni correction, *P < 0.25",
+      "note": "Reporting concern. The supplied PDF prints *P < 0.25. Do not silently reinterpret as 0.05 or call this proof of an invalid experiment. Verify the original caption, supplement, and any correction. Two replicates and a representative experiment also require clarification of the independent unit."
+    },
+    {
+      "id": "M02",
+      "category": "METHOD",
+      "quote": "One representative of three separate experiments is shown.",
+      "note": "Display versus replication. Three experiments are mentioned, but this display is representative. Check whether inference uses wells, independent preparations, or pooled experiments; the main caption does not resolve this."
+    },
+    {
+      "id": "E01",
+      "category": "EVIDENCE",
+      "quote": "improves their long-term survival in vitro (Fig. 1C).",
+      "note": "Cell preparation. Figure 1C supports improved survival under the tested culture conditions. Revisit L01 before assigning statistical confidence; this does not establish long-term graft safety."
+    },
+    {
+      "id": "E02",
+      "category": "EVIDENCE",
+      "quote": "until they fire trains of action potentials in response to optical stimulation",
+      "note": "Figure 1D. Light-evoked action potentials support functional responsiveness in culture. They do not establish successful muscle activation after grafting. That downstream claim needs Figure 3."
+    },
+    {
+      "id": "M03",
+      "category": "METHOD",
+      "quote": "Muscle denervation was induced by sciatic nerve ligation in adult mice.",
+      "note": "Model. Surgically induced peripheral injury in adult mice. The assay is not an ALS disease model or a direct test of spinal cord repair."
+    },
+    {
+      "id": "S02",
+      "category": "SCOPE",
+      "quote": "partially denervated environment resembling the partial muscle denervation of early-stage ALS",
+      "note": "Model-to-disease analogy. Partial denervation is a shared feature. Disease progression, central pathology, and the disease milieu are not reproduced merely by nerve ligation."
+    },
+    {
+      "id": "M04",
+      "category": "METHOD",
+      "quote": "Three days postligation, embryoid bodies containing ChR2 motor neurons were engrafted distal to the ligation",
+      "note": "Intervention and location. Grafts are placed downstream of the lesion. Bypassing a damaged route helps explain efficacy without implying reconstruction of central motor circuitry."
+    },
+    {
+      "id": "E03",
+      "category": "EVIDENCE",
+      "quote": "survive for at least 35 days in the peripheral nerve environment (Fig. 2A)",
+      "note": "Figure 2A. Observed persistence at the examined time supports survival through this endpoint. It does not establish years-long durability or graft safety."
+    },
+    {
+      "id": "C02",
+      "category": "INFERENCE",
+      "quote": "mature morphologically to resemble adult spinal motor neurons and express the mature motor neuron marker choline acetyltransferase",
+      "note": "Identity/maturation inference. Morphology and ChAT expression support a motor-neuron phenotype. Marker expression alone cannot establish every property of a normal adult motor neuron."
+    },
+    {
+      "id": "E04",
+      "category": "EVIDENCE",
+      "quote": "extended large numbers of axons (Fig. 2C)",
+      "note": "Anatomical link. Labeled axons extending toward muscles support outgrowth. Presence of axons alone leaves functional synaptic transmission unresolved."
+    },
+    {
+      "id": "C03",
+      "category": "INFERENCE",
+      "quote": "Histological analysis also revealed robust reinnervation of muscle fibers by ChR2 motor neurons",
+      "note": "Figure 2E-F. Labeled terminals associated with end plates support anatomical reinnervation. Test the functional meaning separately with light-evoked muscle force."
+    },
+    {
+      "id": "S03",
+      "category": "SCOPE",
+      "quote": "most likely because these motor neurons were inactive",
+      "note": "Proposed explanation for morphology. Sprouting and poly-innervation are consistent with inactivity. A causal test would vary activity and assess the resulting morphology; the cited association alone is not that intervention."
+    },
+    {
+      "id": "L02",
+      "category": "LIMIT",
+      "quote": "n = 4 engrafted nerves from three separate experiments.",
+      "note": "Sampling. Nerves, animals, junctions, and independent experiments are different units. Multiple images or end plates do not automatically add independent animals. Consult full methods for the mapping."
+    },
+    {
+      "id": "E05",
+      "category": "EVIDENCE",
+      "quote": "14.7% were innervated by YFP-positive ChR2 motor neurons axons after 35 days",
+      "note": "Figure 2F. Identify the denominator: anatomical end plates in the examined TS muscle. This percentage is not a measurement of recovered whole-animal function or force."
+    },
+    {
+      "id": "M05",
+      "category": "METHOD",
+      "quote": "In anesthetized animals, we used isometric muscle tension physiology",
+      "note": "Scope-defining measurement. The endpoint is muscle force in an anesthetized preparation. Exposed-nerve stimulation differs from an implanted system operating during free movement."
+    },
+    {
+      "id": "M06",
+      "category": "METHOD",
+      "quote": "470-nm blue light",
+      "note": "Input. Blue light is the externally controlled stimulus, delivered to the graft site. Figure 3A defines the input-output experiment."
+    },
+    {
+      "id": "E06",
+      "category": "EVIDENCE",
+      "quote": "Short-duration (14-ms) light pulses were able to induce submaximal twitch contractions",
+      "note": "Figure 3B. Key functional observation. Optical input evokes muscle force after grafting, bridging the anatomical evidence in Figure 2 to a functional output."
+    },
+    {
+      "id": "E07",
+      "category": "EVIDENCE",
+      "quote": "high-frequency illumination (40 to 80 Hz) induced tetanic muscle contraction",
+      "note": "Figure 3C-D. Changing the temporal input produces sustained contractions; repeated responses support controllability in this tested preparation. Tetanic here describes contraction, not infection."
+    },
+    {
+      "id": "M07",
+      "category": "METHOD",
+      "quote": "electrical nerve stimulation, which activates both populations of axons.",
+      "note": "Comparator caveat. Electrical stimulation recruits endogenous plus graft-derived axons, whereas optical stimulation targets light-responsive elements. The comparison changes recruitment population as well as stimulus modality."
+    },
+    {
+      "id": "L03",
+      "category": "LIMIT",
+      "quote": "12.2% of electrically induced force for TA and 12.3% for EDL",
+      "note": "Effect magnitude. Optical force is a modest fraction of the combined electrical response. This is not 12% of normal strength; the electrical denominator is an injured, grafted preparation. Useful boundary on restoration language."
+    },
+    {
+      "id": "S04",
+      "category": "SCOPE",
+      "quote": "It is likely that this reduced force output",
+      "note": "Causal attribution. The authors attribute reduced output to inactivity. Other contributors could include motor-unit size, innervation, graft maturation, and optical recruitment. These are candidate alternatives, not demonstrated defects."
+    },
+    {
+      "id": "S05",
+      "category": "SCOPE",
+      "quote": "Sustained optical stimulation in vivo would probably lead to reinforcement",
+      "note": "Untested improvement prediction. A longitudinal stimulation-versus-control study would test this. Distinguish this proposal from the contractions already measured."
+    },
+    {
+      "id": "C04",
+      "category": "INFERENCE",
+      "quote": "This finding indicates that the nerve conduction velocities were similar",
+      "note": "Indirect inference. Trigger-to-peak-force latency combines light activation, axonal conduction, synaptic transmission, and muscle mechanics. Similar total latency does not independently isolate equal nerve conduction velocity."
+    },
+    {
+      "id": "E08",
+      "category": "EVIDENCE",
+      "quote": "muscle fibers innervated by grafted ChR2 motor neurons were fatigue-resistant",
+      "note": "Figure 3H. Reported fatigue behavior during the tested stimulation protocol. Separate the observed traces from the explanation based on prior inactivity and from comparisons involving different recruited populations."
+    },
+    {
+      "id": "S06",
+      "category": "SCOPE",
+      "quote": "this probably reflects the prolonged period of inactivity",
+      "note": "Explanation remains provisional. An activity manipulation and matched recruitment conditions would help distinguish inactivity from other causes of fatigue differences."
+    },
+    {
+      "id": "M08",
+      "category": "METHOD",
+      "quote": "illumination intensity of the LED was varied from 0.8 to 8 mW/mm2",
+      "note": "Figure 3I. Vary stimulus intensity and record force increments. This is the operational test of recruitment, with motor-unit counts inferred from force steps."
+    },
+    {
+      "id": "C05",
+      "category": "INFERENCE",
+      "quote": "demonstrating that different motor units could be recruited according to their optical activation threshold",
+      "note": "Supported bounded interpretation: threshold-dependent graded recruitment. Showing increments alone does not establish that the normal small-to-large physiological order is reproduced. Inspect step sizes and recruitment order before accepting the stronger wording."
+    },
+    {
+      "id": "E09",
+      "category": "EVIDENCE",
+      "quote": "grafted ChR2 motor neurons accounted for ~50% of all motor units",
+      "note": "Figure 3J. A motor-unit number estimate, not half of normal strength. Relate this to Figure 3K and the much smaller optical/electrical force ratio. Different denominators resolve the apparent discrepancy."
+    },
+    {
+      "id": "L04",
+      "category": "LIMIT",
+      "quote": "Major challenges still remain before this approach can be established as an effective clinical intervention",
+      "note": "Authors acknowledge translational limits. Implantable stimulation, graft containment, light delivery, durability, and safety require further work. A limitation to translation need not invalidate the experimental proof of principle."
+    },
+    {
+      "id": "S07",
+      "category": "SCOPE",
+      "quote": "it is possible that with further development this strategy may be of use",
+      "note": "Calibrated prospect. Possible future usefulness is distinct from demonstrated clinical efficacy. Preserve the authors' qualification when discussing overreach."
     }
   ]
 };
